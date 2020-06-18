@@ -1,0 +1,88 @@
+body {
+  background-color: rgb(128, 64, 64);
+  font-family: optima;
+  font-size: 30px;
+}
+.grid {
+  background-color: rgba(134, 111, 111, 0.2);
+  margin: 50px auto;
+  vertical-align: center;
+  width: 500px;
+  height: 500px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 2px;
+  border-radius: 4px;
+  box-shadow: rgba(37, 30, 30, 0.3) 20px 40px 10px;
+}
+.space {
+  background-color: rgba(183, 224, 236, 0.527);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 120px;
+}
+.space:hover {
+  background-color: rgba(71, 83, 94, 0.438);
+  transition: background-color 0.8s;
+  cursor: pointer;
+}
+.header {
+  font-family: "IBM Plex Sans Condensed", Courier, monospace, sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-size: 35px;
+  color: rgb(19, 8, 6);
+  text-align: center;
+  margin-top: 50px;
+}
+
+.reset {
+  font-size: 20px;
+  font-family: "IBM Plex Sans Condensed", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  color: tomato;
+  background-color: white;
+  border: 1px solid tomato;
+  padding: 5px;
+  transition: border, color, 0.5s;
+}
+
+.reset:hover {
+  cursor: pointer;
+  color: #33dbff;
+  border: 1px solid #33dbff;
+  transition: border, color, 0.5s;
+}
+
+.reset:focus {
+  outline: none;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.p1,
+.p2 {
+  font-family: "IBM Plex Sans Condensed", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+}
+
+.p1 {
+  color: tomato;
+  margin-left: 20px;
+}
+
+.p2 {
+  color: #33dbff;
+  margin-right: 20px;
+}
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
